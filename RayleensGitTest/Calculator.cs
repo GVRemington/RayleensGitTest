@@ -24,6 +24,12 @@ namespace RayleensGitTest
             b=B;
             return a+b;
         }
+        public decimal Divide(decimal A, decimal B)
+        {
+            a= A;
+            b= B;
+            return a/b;
+        }
 
      
     }
