@@ -30,6 +30,12 @@ namespace RayleensGitTest
             b= B;
             return a/b;
         }
+        public decimal Subtract(decimal A, decimal B)
+        {
+            a= A;
+            b= B;
+            return a-b;
+        }
 
      
     }
