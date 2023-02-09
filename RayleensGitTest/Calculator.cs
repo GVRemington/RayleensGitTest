@@ -14,6 +14,7 @@ namespace RayleensGitTest
 
         public decimal Multiply(decimal A, decimal B)
         {
+            //Rayleen is a bada$$ coder lady
             a = A;
             b = B;
             return a * b;
