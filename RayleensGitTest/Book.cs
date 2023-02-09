@@ -1,18 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace RayleensGitTest
 {
-    internal class BookList
+    internal class Book
     {
+        //    
         private string title;
         private string description;
         private string author;
 
-        public BookList(string Name, string AuthorLastName, string AuthorFirstName, string Description)
+        public Book(string Name, string AuthorLastName, string AuthorFirstName, string Description)
         {
             title = Name;
             author = AuthorLastName +  ", " + AuthorFirstName;
